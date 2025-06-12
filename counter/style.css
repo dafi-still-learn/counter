@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.box {
+  background-color: #ddd;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+h3 {
+  font-size: 5em;
+  color: crimson;
+}
+
+#number {
+  font-size: 6em;
+}
+
+.grup-count {
+  display: flex;
+  gap: 2em;
+}
+
+.grup-count button {
+  border-radius: 1em;
+  width: 8em;
+  height: 3em;
+  border: none;
+  cursor: pointer;
+}
