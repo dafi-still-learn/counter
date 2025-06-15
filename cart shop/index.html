@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>cart shop</title>
+  </head>
+  <body>
+    <section>
+      <nav>
+        <div class="tokopedia"><a href="#">tokopedia</a></div>
+        <div class="kategori"><a href="#" id="pilihan">kategori</a></div>
+        <div class="search">
+          <input type="text" id="search" />
+        </div>
+        <div class="cart">
+          <i class="bx bxs-cart"></i>
+        </div>
+        <div class="login">
+          <a href="#">masuk</a>
+          <a href="#">daftar</a>
+        </div>
+      </nav>
+    </section>
+
+    <section id="box"></section>
+    <div id="cart-box">
+      <div id="cart-list"></div>
+      <div class="cart-button">
+        <div class="box-total">
+          <h1 id="total"></h1>
+        </div>
+        <button onclick="pay()">pay</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
